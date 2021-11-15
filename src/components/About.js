@@ -21,7 +21,7 @@ const About = () => {
                    <div className="about-us">
                         <h1>Welcome to FineTaxAce,</h1>
                         <p>Here at Finetaxace we offer the very best in Marketing Service,
-                        We started Finetaxace with a single purpose, to provide the finest Marketing Service to all the peoples,
+                        We started Finetaxace with a single purpose, to provide the finest Financial Service to all the peoples,
                         If you need anything don't hesitate to</p>
                         <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/contact" >
                         Contact Us
