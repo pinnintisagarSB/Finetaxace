@@ -1,0 +1,119 @@
+.contact{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    padding-bottom: 0rem;
+}
+.contacts{
+    width: 80vw;
+    height: auto ;
+    margin: auto;
+    padding: 5rem 0;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+.contact-container{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 2rem 0rem rgba(0,0,0,0.7);
+}
+.contact-container label{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+}
+.contact-container input{
+    width: 100%;
+    height: 3rem;
+    padding: 2.5rem;
+    margin: 1.5rem 0rem;
+    border-radius: 1rem;
+    border: transparent;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.3);
+}
+.contact-container textarea{
+    margin-top: 1rem;
+    padding: 1rem;
+    border: transparent;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.3);
+}
+.btn{
+    width: 15rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(241, 7, 46);
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.3);
+    color: #fff;
+    border: transparent;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.contact-address{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 2rem;
+    background: rgb(241, 7, 46);
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.5);
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 10rem;
+}
+.contact-address h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.contact-no{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.contact-no h2{
+    font-size: 2.3rem;
+    align-items: center;
+    color: #fff;
+    margin-left: 5rem;
+    font-weight: 500;
+}
+.call{
+    font-size: 2rem;
+}
+.ad{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1080px){
+    .contact{
+        background: linear-gradient(to bottom,rgb(241, 7, 46) 0%,rgb(250, 7, 46) 50%,#000 50%,#000 100%);
+    }
+}
+@media (max-width:420px) {
+    html{
+    font-size: 40%;
+}
+@media (max-width:280px) {
+    html{
+        font-size: 35%;
+    }    
+}
+}
