@@ -1,6 +1,6 @@
 .navbar{
     height: 10rem;
-    background: rgb(0, 0, 0);
+    background: #fff;
     position: sticky;
     display: flex;
     z-index: 999;
@@ -14,7 +14,7 @@
 .title{
     text-decoration: none;
     font-size: 3.5rem;
-    color: crimson;
+    color: #536DFE;
     font-weight: 800;
     font-family: 'Comfortaa', cursive
 }
@@ -28,7 +28,7 @@
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: 500;
-    color: crimson;
+    color: #113CFC;
     margin: 0 2rem;
     transition: 0.3s ease all;
 }
@@ -45,13 +45,15 @@
     font-size: 2.5rem;
     font-weight: 500;
     color: #fff;
-    margin: 0 2rem;
-    border-bottom: 0.4rem solid #fff;
+    margin: 0 2.2rem;
+    padding: .5rem 1rem;
+    border-radius: 10rem;
+    background-color: #536DFE;
     transition: 0.3s ease all;
 }
 
 .bars{
-   color: crimson;
+   color: #536DFE;
    height: 3rem;
    width: 3rem;
    display: none;
