@@ -62,7 +62,7 @@ const Contact = () => {
                 <label for="mail">Email</label>
                 <input type="email" id="mail" name="email" value={data.email} onChange={InputEvent} placeholder="Enter Your Email Address"/>
                 <label for="msg">Message</label>
-                <textarea id="msg" name="message" value={data.message} onChange={InputEvent} cols="35" rows="8"/>
+                <textarea id="msg" name="message" value={data.message} onChange={InputEvent} cols="30" rows="10"/>
                 <button className="btn" onClick={SubmitEvent} type="submit">Send</button>
             </form>
             </div>

@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import "./About.css";
 import Img1 from "./IMG-20211111-WA0021.jpg";
 import Img2 from "./IMG-20211111-WA0028.jpg";
-import Shiny from "./Shiny.svg";
+import Shiny from "./Colored.svg";
 import { NavLink } from 'react-router-dom';
 import Aos from 'aos';
 const About = () => {
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 1500})
     }, [])
     return (
         <div  className="about"style={{backgroundImage:`url(${Shiny})`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}>
