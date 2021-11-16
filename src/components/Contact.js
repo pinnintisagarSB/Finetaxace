@@ -19,15 +19,16 @@ const Contact = () => {
                 [name]: value,
             };
         });
-        setData('');
     }
     const SubmitEvent = (e)=>{
         e.preventDefault();
         emailjs.sendForm("service_z1icd99","template_cc7mv7b",".contact-container" , 'user_g3NcZm3xQqmCixEIlhpnw')
         .then((result) => {
+            alert("Sent Successfully!")
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
+            alert("Sorry, Send Again!")
         });
     };
     useEffect(() => {
