@@ -2,6 +2,7 @@
     width: 100%;
     height: 22rem;
     z-index: 10;
+    box-shadow: 2rem 2rem 2rem 2rem rgba(0,0,0,0.3);
     position: relative;
     background-color: #000;
 }
@@ -25,7 +26,7 @@
 .navlink{
     font-size: 2rem;
     text-decoration: none;
-    color: #113CFC;
+    color: #fff;
     font-weight: 500;
     padding: 2rem;
 }
