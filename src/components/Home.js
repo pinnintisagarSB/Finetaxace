@@ -3,14 +3,14 @@ import "./Home.css";
 import { useEffect } from 'react';
 import {NavLink} from "react-router-dom";
 import Aos from "aos";
-import Cloud from "./Cloudy.svg"
-import Homepng from "./undraw_designer_re_5v95.svg";
+import Cloud2 from "./Cloudy2.svg"
+import Homepng from "./undraw_designer_re_5v951.svg";
 const Home = () => {
     useEffect(() => {
         Aos.init({duration: 1500})
     }, [])
         return (
-            <div className="home" style={{height:'100vh' ,backgroundImage:`url(${Cloud})`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}>
+            <div className="home" style={{height:'100vh' ,backgroundImage:`url(${Cloud2})`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}>
                
                 <div className="homes">
                 <div data-aos="fade-up" className="home-container">
