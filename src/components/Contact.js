@@ -5,6 +5,8 @@ import {FaPhone} from "react-icons/fa";
 import {MdEmail,MdLocationOn} from "react-icons/md";
 import Aos from 'aos';
 const Contact = () => {
+    const [display,setDis] = useState(0);
+    const [err,setErr] = useState(0);
     const [data,setData] = useState({
         fullname:'',
         email:'',
@@ -23,11 +25,17 @@ const Contact = () => {
         e.preventDefault();
         emailjs.sendForm("service_z1icd99","template_cc7mv7b",".contact-container" , 'user_g3NcZm3xQqmCixEIlhpnw')
         .then((result) => {
-            alert("Sent Successfully!")
+            setDis(1);
+            setTimeout(()=>{
+                setDis(0);
+            },4000);
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
-            alert("Sorry, Send Again!")
+            setErr(1);
+            setTimeout(()=>{
+                setErr(0);
+            },4000);
         });
         setData({
             fullname:'',
@@ -62,6 +70,8 @@ const Contact = () => {
             </div>
             <form data-aos="fade-left" className="contact-container"onSubmit={SubmitEvent}>
                <h1 className="top">SAY SOMETHING</h1>
+               {display?<h1 className="dis1">Sent Successfylly!</h1>: <h1 className="disno">No</h1> }
+               {err?<h1 className="dis2">Sorry, try again?</h1>: <h1 className="disno">No</h1> }
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="fullname" value={data.fullname} onChange={InputEvent} placeholder="Enter Your Name"/>
                 <label for="mail">Email</label>
