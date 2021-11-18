@@ -2,6 +2,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-color: #EEEEEE;
 }
 .about-container{
     width: 80vw;
@@ -18,7 +19,7 @@
 .about h1{
     text-align: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
     font-size: 3rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -27,23 +28,24 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 2rem;
     border-radius: 2rem;
-    background: crimson;
+    background: transparent;
     align-items: center;
 }
 .about-img img{
-    width: 25rem;
+    width: 26rem;
     height: 30rem;
+    border-radius: 50%;
 }
 .about-img h1{
-    color: #fff;
+    color: #000;
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
 }
 .about-img p{
-    color: #fff;
+    color: #000;
     font-size: 1.5rem;
     font-weight: 500;
 }

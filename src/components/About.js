@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import "./About.css";
 import Img1 from "./IMG-20211111-WA0021.jpg";
 import Img2 from "./IMG-20211111-WA0028.jpg";
-import Shiny from "./Colored.svg";
 import { NavLink } from 'react-router-dom';
 import Aos from 'aos';
 const About = () => {
@@ -10,14 +9,14 @@ const About = () => {
         Aos.init({duration: 1500})
     }, [])
     return (
-        <div  className="about"style={{backgroundImage:`url(${Shiny})`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}>
+        <div  className="about">
                <h1>About Us</h1>
                <div data-aos="fade-up" className="about-container">
                <div className="about-img">
-                   <img src={Img1} alt="" />
-                   <h1>N SUSHILA KUMARI</h1>
-                   <p>Founder</p>
-               </div>
+                       <img src={Img2} alt="" />
+                       <h1>ABHISHEK RANJAN UPADHYAY</h1>
+                       <p>Director</p>
+                   </div>
                    <div className="about-us">
                         <h1>Welcome to FineTaxAce,</h1>
                         <p>Here at Finetaxace we offer the very best in Marketing Service,
@@ -36,10 +35,10 @@ const About = () => {
                         </h3>
                    </div>
                    <div className="about-img">
-                       <img src={Img2} alt="" />
-                       <h1>ABHISHEK RANJAN .U</h1>
-                       <p>Director</p>
-                   </div>
+                   <img src={Img1} alt="" />
+                   <h1>N SUSHILA KUMARI</h1>
+                   <p>Founder</p>
+               </div>
                </div>
         </div>
     )
