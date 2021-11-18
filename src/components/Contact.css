@@ -128,11 +128,6 @@
     display: flex;
     flex-direction: column;
 }
-@media (max-width:1080px){
-    .contact{
-        background: linear-gradient(to bottom,rgb(241, 7, 46) 0%,rgb(250, 7, 46) 50%,#000 50%,#000 100%);
-    }
-}
 @media (max-width:420px) {
     html{
     font-size: 40%;
