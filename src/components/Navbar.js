@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import {FaBars,FaRegTimesCircle} from "react-icons/fa";
+import {BsFacebook,BsTwitter} from "react-icons/bs";
+import {FaInstagram} from "react-icons/fa";
 import "./Navbar.css";
 import Aos from 'aos';
 const Navbar = () =>{
@@ -69,10 +71,15 @@ const Navbar = () =>{
               Contact
             </NavLink>
             </li>
+            <div className="social">
+              <BsFacebook className="so"/>
+              <FaInstagram className="so"/>
+              <BsTwitter className="so"/>
+            </div>
         </ul>
         </div>
         <div className="close">
-        <FaRegTimesCircle className="bars" onClick={()=>{setOn(1)}}/>
+        <FaRegTimesCircle color="black" className="bars" onClick={()=>{setOn(1)}}/>
         </div>
     </div>
   )
