@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import "./Contact.css";
 import * as emailjs from "emailjs-com";
 import {FaPhone} from "react-icons/fa";
-import Sprink from "./Sprinkle.svg"
 import {MdEmail,MdLocationOn} from "react-icons/md";
 import Aos from 'aos';
 const Contact = () => {
@@ -30,12 +29,17 @@ const Contact = () => {
             console.log(error.text);
             alert("Sorry, Send Again!")
         });
+        setData({
+            fullname:'',
+            email:'',
+            message:'',
+        });
     };
     useEffect(() => {
         Aos.init({duration: 1500})
     }, [])
     return (
-        <div className="contact" style={{backgroundImage:`url(${Sprink})`,backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}>
+        <div className="contact">
             <div className="contacts">
             <div data-aos="fade-up" className="contact-address">
                 <h1>Get in Touch With Us!</h1>
