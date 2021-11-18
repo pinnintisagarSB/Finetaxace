@@ -37,7 +37,7 @@ const About = () => {
                    <div className="about-img">
                    <img src={Img1} alt="" />
                    <h1>NALLABOTUL SUSHILA KUMARI</h1>
-                   <p>CO-DIRECTOR</p>
+                   <p>Co-Director</p>
                </div>
                </div>
         </div>
