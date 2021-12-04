@@ -19,22 +19,22 @@ const Footer = () => {
             <div className="links">
                 <ul>
                     <li>
-                    <NavLink className="navlink" to="/" >
+                    <NavLink className="navlink" to="/" onClick={()=>{window.scrollTo(0,0)}}>
                       Home
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className="navlink" to="/service">
+                    <NavLink className="navlink" to="/service" onClick={()=>{window.scrollTo(0,0)}}>
                       Services
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className="navlink" to="/about">
+                    <NavLink className="navlink" to="/about" onClick={()=>{window.scrollTo(0,0)}}>
                       About
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className="navlink" to="/contact">
+                    <NavLink className="navlink" to="/contact" onClick={()=>{window.scrollTo(0,0)}}>
                       Contact
                     </NavLink>
                     </li>
