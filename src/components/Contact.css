@@ -1,6 +1,6 @@
 .contact{
     height: 100%;
-    width: 100%;
+    width: 98.9vw;
     position: relative;
     justify-content: center;
     z-index: 1;
@@ -8,7 +8,7 @@
     padding-bottom: 0rem;
 }
 .contacts{
-    width: 80vw;
+    width: 75vw;
     height: auto ;
     margin: auto;
     padding: 5rem 0;
@@ -25,7 +25,7 @@
 }
 .contact-container{
     display: flex;
-    width: auto;
+    width: 40rem;
     flex-direction: column;
     background-color: #fff;
     padding: 2rem;
@@ -67,15 +67,26 @@
 .disno{
     display: none;
 }
-.dis1{
+.dis{
     width: 100%;
     height: 3rem;
     align-items: center;
     margin-bottom: 1rem;
     padding: .5rem;
     font-weight: 500;
-    background-color: lightgreen;
-    color: darkgreen;
+    background-color: rgb(253, 191, 57);
+    color: #000;
+    text-align: center;
+}
+.dis1{
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-weight: 400;
+    background-color: rgb(90, 230, 90);
+    color: rgb(12, 95, 12);
     text-align: center;
 }
 .dis2{
@@ -85,8 +96,8 @@
     margin-bottom: 1rem;
     padding: .5rem;
     font-weight: 500;
-    background-color: rgb(253, 71, 71);
-    color: rgb(180, 16, 16);
+    background-color: pink;
+    color: rgb(236, 46, 46);
     text-align: center;
 }
 .contact-address{
@@ -94,6 +105,7 @@
     flex-direction: column;
     border-radius: 2rem;
     padding: 2rem;
+    margin-right: 6rem;
     background: #fff;
     box-shadow: 0 0 2rem 0 rgba(0,0,0,0.5);
     justify-content: center;
@@ -128,9 +140,16 @@
     display: flex;
     flex-direction: column;
 }
+@media (max-width:1024px) {
+    .contact-address{
+        margin-right: 0;
+    }
+    
+}
 @media (max-width:420px) {
     html{
     font-size: 40%;
+}
 }
 @media (max-width:280px) {
     html{
@@ -142,5 +161,4 @@
     .contact-container label{
         font-size: 8rem;
     }
-}
 }

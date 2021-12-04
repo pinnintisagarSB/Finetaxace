@@ -23,22 +23,22 @@ const Navbar = () =>{
             <div className="navmenu">
                 <ul>
                     <li>
-                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/" onClick={()=>{setHome(1);setonHome(1)}}>
+                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/" onClick={()=>{setHome(1);setonHome(1);window.scrollTo(0,0)}}>
                       Home
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/service" onClick={()=>{setonHome(1)}}>
+                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/service" onClick={()=>{setonHome(1);window.scrollTo(0,0)}}>
                       Services
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/about" onClick={()=>{setonHome(1)}}>
+                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/about" onClick={()=>{setonHome(1);window.scrollTo(0,0)}}>
                       About
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/contact" onClick={()=>{setonHome(1)}}>
+                    <NavLink className={(navData)=> navData.isActive ? 'navoption active' : 'navoption' } to="/contact" onClick={()=>{setonHome(1);window.scrollTo(0,0)}}>
                       Contact
                     </NavLink>
                     </li>

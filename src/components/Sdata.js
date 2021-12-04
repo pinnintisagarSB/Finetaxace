@@ -25,33 +25,33 @@ const Sdata = [
     {   
         img: time,
         title: "INCOME TAX RETURN (ITR)",
-        description : "We also provide you INCOME TAX RETURN service so that it can help you in future."
+        description : "We Provide this service so that it can help you in future."
     },
     {   
         img: book,
         title: "Book Keeping & Accounting",
-        description : "We also have Book Keeping and Accounting service for providing you your financial reports."
+        description : "We Provide this service for providing you your financial reports."
     },
     {
         img: program,
         title: "Project Finance Apprasial",
-        description : "We Provide Project Finance Apprasial service so that you can get help from us for your project Approval."
+        description : "We Provide this service so that you can get help from us for your project."
     },
     {
         img: firmware,
         title: "TDS/TCS RETURN",
-        description : "We also provide TDS/TCS service so that you can pay your Taxes efficently."
+        description : "We Provide this service so that you can pay your Taxes efficently."
     },
     {   
         img: sign,
         title: "Digital Signature (DSC)",
-        description : "We also have this service so that you can have your Digital Signature with you for faster documentation."
+        description : "We Provide this service for faster documentation."
     },
     {
         img: online,
         title: "PAN/TAN Apply ",
         description : "You can also get your PAN/TAN Applied at our office and get it fast."
-    }
+    },
 ]
 
 export default Sdata

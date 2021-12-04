@@ -60,14 +60,19 @@
 }
 .home-container button{
     padding: 1.5rem;
-    margin-top: 2rem;
-    border-radius: 5rem;
+    width: 20rem;
+    height: 5rem;
+    margin: 1.5rem;
     border: transparent;
     font-weight: 500;
     background-color: #0E49B5;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     transition: 0.3s all ease;
+}
+.buttons{
+    margin-top: 1rem;
+    display: inline-block;
 }
 .home-container button:hover{
     background-color: rgb(243, 29, 72);
@@ -80,5 +85,15 @@
 @media (max-width:1080px) {
     .homes{
         padding: 5rem 0;
+    }
+}
+@media (max-width:480px) {
+    .buttons{
+        display: inline-block;
+        margin-top: 1rem;
+    }
+    .home-container button{
+        margin: 1rem;
+        border-radius: 3rem;
     }
 }

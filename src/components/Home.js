@@ -16,9 +16,14 @@ const Home = () => {
                 <div data-aos="fade-up" className="home-container">
                     <h1>FineTaxAce</h1>
                     <h2>Enlightening Paths Fulfilling Dreams</h2>
+                    <div className="buttons">
                     <NavLink to="/service">
                     <button>Our Services</button>
                     </NavLink>
+                    <NavLink to="/about">
+                    <button>About Us</button>
+                    </NavLink>
+                    </div>
                 </div>
                 <div data-aos="fade-up" className="bg">
                     <img src={Homepng} alt="" />
