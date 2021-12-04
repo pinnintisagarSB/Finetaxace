@@ -52,22 +52,22 @@ const Navbar = () =>{
       <div className="dropdown">
         <ul onClick={()=>{setOn(1)}}>
             <li>
-            <NavLink className='navoption1' to="/">
+            <NavLink className='navoption1' to="/" onClick={()=>{window.scrollTo(0,0)}}>
               Home
             </NavLink>
             </li>
             <li>
-            <NavLink className='navoption1' to="/service">
+            <NavLink className='navoption1' to="/service" onClick={()=>{window.scrollTo(0,0)}}>
               Services
             </NavLink>
             </li>
             <li>
-            <NavLink className='navoption1' to="/about">
+            <NavLink className='navoption1' to="/about" onClick={()=>{window.scrollTo(0,0)}}>
               About
             </NavLink>
             </li>
             <li>
-            <NavLink className='navoption1' to="/contact">
+            <NavLink className='navoption1' to="/contact" onClick={()=>{window.scrollTo(0,0)}}>
               Contact
             </NavLink>
             </li>
