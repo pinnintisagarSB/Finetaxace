@@ -1,20 +1,33 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
-import Card from './Card';
+import { NavLink } from 'react-router-dom';
+import "./Card.css";
 import Sdata from './Sdata';
 import "./Service.css";
 const Service = () => {
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 1200})
     }, [])
+    const Card = (props) => {
+        return (
+            <div data-aos="fade-up" key={props.key} className="card">
+                <div className="card-container">
+                    <div className="box">
+                    <img src={props.img} alt="" />
+                    <h2>{props.title}</h2>
+                    <p>{props.description}</p>
+                    </div>
+                    <NavLink to={`/service/${props.id}`}><button className="butn">Know More</button></NavLink>
+                </div>
+            </div>
+        )
+    }
     return (
         <div className="service">
             <h1>Our Services</h1>
             <div className="service-container">
                {
-                   Sdata.map((val,ind)=>{
-                       return <Card key={ind} img={val.img} title={val.title} desc={val.description}/>
-                   })
+                   Sdata.map(Card)
                }
             </div>
         </div>

@@ -11,6 +11,7 @@ import HashLoader from "react-spinners/HashLoader";
 import "../src/components/Loader.css";
 import Aos from 'aos';
 import { css } from "@emotion/react";
+import Serviceinfo from './components/Serviceinfo';
 const load = css`
   display: block;
   margin: 0 auto;
@@ -46,6 +47,7 @@ const App = () => {
       <Route path="/service" element={<Service/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/service/:id" element={<Serviceinfo/>} />
     </Routes>
     <Footer/>
     </>

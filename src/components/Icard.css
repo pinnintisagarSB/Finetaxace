@@ -1,0 +1,31 @@
+.icard{
+    width: 80vw;
+    height: auto;
+    border-color: #EEEEEE;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.5);
+    margin: 10rem auto;
+}
+.icard-container{
+    padding: 2rem;
+    text-align:left;
+    justify-content: center;
+}
+.sbox{
+    padding: 2rem;
+}
+.wbox{
+    padding: 2rem;
+}
+.combox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icard-container h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+li{
+    list-style:disc;
+    font-size: 2rem;
+    margin-top: .5rem;
+}
