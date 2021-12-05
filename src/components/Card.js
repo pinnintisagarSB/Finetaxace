@@ -5,7 +5,7 @@ import "./Card.css";
 import { NavLink } from 'react-router-dom';
 const Card = (props) => {
     useEffect(() => {
-        Aos.init({duration: 1500})
+        Aos.init({duration: 1200})
     }, [])
     return (
         <div data-aos="fade-up" className="card">
