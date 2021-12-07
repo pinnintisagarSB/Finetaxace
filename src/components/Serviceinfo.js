@@ -4,7 +4,7 @@ import "./Icard.css";
 import { useParams } from 'react-router';
 const Serviceinfo = () => {
     const sid = useParams();
-    const sDetail = Info.filter(x=>x.id == sid.id);
+    const sDetail = Info.filter(x=>x.id === parseInt(sid.id));
     const sd = sDetail[0];
     console.log(sDetail);
     return (
