@@ -55,7 +55,7 @@ const Serviceinfo = () => {
                             </div>
                             {show?(
                                 <div className="wbox">
-                                    <h1>For 12A & 80G Registrations Required Documents:</h1>
+                                    <h1>For 12A and 80G Registrations Required Documents:</h1>
                                     <h3>All documents 3 sets:</h3>
                                     <li>Registration Certificate and Memorandum of association, Articles of association/Trust Deed</li>
                                     <li>NOC from Landlord (where registered office is situated), along with proof of his ownership</li>
