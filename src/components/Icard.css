@@ -27,6 +27,16 @@ span:first-child{
     margin-top: 1rem;
     border-radius: 5rem;
 }
+h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 .ttl{
     text-align: center;
     text-align: center;
