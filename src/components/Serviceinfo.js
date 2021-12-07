@@ -10,7 +10,7 @@ const Serviceinfo = () => {
     const sDetail = Info.filter(x=>x.id === parseInt(sid.id));
     const sd = sDetail[0];
     useEffect(() => {
-        if(parseInt(sid.id)===1){
+        if(parseInt(sid.id)===true){
             setShow(1);
         }
         else{
