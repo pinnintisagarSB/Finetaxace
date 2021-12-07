@@ -30,9 +30,9 @@ const About = () => {
                          Services
                         </NavLink>
                         <p>we provide.</p>
-                        <h3>Thank you for your interest in Finetaxace 
+                        <h5>Thank you for your interest in Finetaxace 
                         From Team FineTaxAce,
-                        </h3>
+                        </h5>
                    </div>
                    <div className="about-img">
                    <img src={Img1} alt="" />
