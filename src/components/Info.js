@@ -18,7 +18,7 @@ const Info = [{
   docs :["PAN of Individual/Firm/Company","Aadhar","Email and mobile no","Firm name","Bank statement","Electricity bill"," Rent agreement",
         "Products or services details","Authorisation letter (in case of Firm or LLP)","Board resolution (in case of company)","PAN and Aadhar of All partners/Directors"],
   work:["GST Registration and other GST related works."],
-  price:"Rs. 1000 for Proprietorship firm 1500 for Partnership/company or others",      
+  price:"Rs.1000 for Proprietorship firm Rs.1500 for Partnership/company or others",      
   id:2,
 },
 {
