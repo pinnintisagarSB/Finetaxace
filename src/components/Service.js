@@ -17,7 +17,7 @@ const Service = () => {
                     <h2>{props.title}</h2>
                     <p>{props.description}</p>
                     </div>
-                    <NavLink to={`/service/${props.id}`}><button className="butn">Know More</button></NavLink>
+                    <NavLink to={`/service/${props.id}`}><button className="butn" onClick={()=>{window.scrollTo(0,0)}} >Know More</button></NavLink>
                 </div>
             </div>
         )
