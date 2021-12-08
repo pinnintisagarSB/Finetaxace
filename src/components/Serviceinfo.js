@@ -1,22 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Info from './Info';
 import { NavLink } from 'react-router-dom';
 import "./Icard.css";
 import { useParams } from 'react-router';
-import { useState } from 'react/cjs/react.development';
 const Serviceinfo = () => {
-    const [show,setShow] = useState(0);
     const sid = useParams();
     const sDetail = Info.filter(x=>x.id === parseInt(sid.id));
     const sd = sDetail[0];
-    useEffect(() => {
-        if(parseInt(sid.id)===true){
-            setShow(1);
-        }
-        else{
-            setShow(0);
-        }   
-    }, [])
     return (
         <div className="service_info">
             <div className="info-container">
@@ -53,7 +43,7 @@ const Serviceinfo = () => {
                                     })
                                 }
                             </div>
-                            {show?(
+                            {(parseInt(sid.id)===1)?(
                                 <div className="wbox">
                                     <h1>For 12A and 80G Registrations Required Documents:</h1>
                                     <h3>All documents 3 sets:</h3>
