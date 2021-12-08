@@ -24,10 +24,10 @@ const Info = [{
 {
  title: "Digital Signature Service",
  options:["Proprietorship","Private Limited","Partnership Firm","Limited Liability partnership","Government Org",
-         "NGO and Trust"],
- docs:[],
- work:[],
- price:"Rs.1200",
+         "NGO and Trust","Foreigner Organization","Foreigner Individual"],
+ docs:["Aadhar Card (Original)","Email and Phone number","Passport Size Photos","PAN card"],
+ work:["Digital Signature will be created for individual or for Firm"],
+ price:"Rs.1500",
  id:8,
 }]
 export default Info;

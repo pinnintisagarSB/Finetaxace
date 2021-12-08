@@ -65,6 +65,81 @@ const Serviceinfo = () => {
                                     <h3>Government fee Approx 1500-4000 depending upon share capital or state of registered office</h3>
                                 </div>
                             ):(<div className="no">No</div>)}
+                            {(parseInt(sid.id)===8)?(
+                                <div className="wbox">
+                                    <h1>Proprietorship Required Documents:</h1>
+                                    <li>Color Photo</li>
+                                    <li>Applicant Pan card</li>
+                                    <li>Applicant address Proof</li>
+                                    <li>GST certificate</li>
+                                    <li>Bank Statement ( Latest Two months )</li>
+                                    <h1>Private Limited Required Documents:</h1>
+                                    <li>Color Photo</li>
+                                    <li>Applicant Pan card</li>
+                                    <li>Applicant address Proof</li>
+                                    <li>GST certificate</li>
+                                    <li>Bank Statement ( Latest Two months )</li>
+                                    <li>Company PAN card</li>
+                                    <li>Certificate Incorporation</li>
+                                    <li>Board of Resolution</li>
+                                    <li>Authorized signatory Pan card and address Proof</li>
+                                    <h1>Partnership Firm Required Documents:</h1>
+                                    <li>Color Photo</li>
+                                    <li>Applicant Pan card</li>
+                                    <li>Applicant address Proof</li>
+                                    <li>GST certificate</li>
+                                    <li>Bank Statement ( Latest Two months )</li>
+                                    <li>Authorization Later</li>
+                                    <li>Authorized signatory Pan card and address Proof</li>
+                                    <li>Partnership deed</li>
+                                    <h1>Limited Liability partnership Required Documents:</h1>
+                                    <li>Color Photo</li>
+                                    <li>Applicant Pan card</li>
+                                    <li>Applicant address Proof</li>
+                                    <li>GST certificate</li>
+                                    <li>Bank Statement ( Latest Two months )</li>
+                                    <li>Company PAN card</li>
+                                    <li>Certificate Incorporation</li>
+                                    <li>Board of Resolution</li>
+                                    <li>Authorized signatory Pan card and address Proof</li>
+                                    <li>LLP Agreement</li>
+                                    <h1>Government Org Required Documents:</h1>
+                                    <li>Color Photo</li>
+                                    <li>Applicant Pan card</li>
+                                    <li>Applicant address Proof</li>
+                                    <li>Applicant Govt ID card</li>
+                                    <li>Authorization Letter</li>
+                                    <li>Authorized signatory color photo</li>
+                                    <li>Authorized signatory Pan card</li>
+                                    <li>Authorized signatory address proof</li>
+                                    <li>Authorized signatory Govt ID card</li>
+                                    <h1>NGO and Trust Required Documents:</h1>
+                                    <li>Applicant address Proof</li>
+                                    <li>GST certificate</li>
+                                    <li>Applicant Color photograph</li>
+                                    <li>Authorized signatory id proof</li>
+                                    <li>Trust Deed</li>
+                                    <li>Organizational ID card</li>
+                                    <li>Trust/NGO pan card</li>
+                                    <h1>Foreigner Organization Required Documents:</h1>
+                                    <li>Color Photograph</li>
+                                    <li>Passport</li>
+                                    <li>Address Proof (Latest two months)</li>
+                                    <li>Company bank statement (Latest two months)</li>
+                                    <li>Company registration copy</li>
+                                    <li>MOA & AOA</li>
+                                    <li>Foreigner Mobile number with country code</li>
+                                    <li>Note- If documents is not in English than need translation certificate with apostle.</li>
+                                    <h1>Foreigner Individual Required Documents:</h1>
+                                    <li>Color Photograph</li>
+                                    <li>Passport</li>
+                                    <li>Address Proof (Latest two months)</li>
+                                    <li>Note- If documents is not in English than need translation certificate with apostle.</li>
+                                    <h1 className="price"><span>Price : </span>Class 3 Individual for 2 years Rs. 1200 <span>excl.of gov tax</span></h1>
+                                    <h1 className="price"><span>Price : </span>Class 3 2yrs Signing + encryption Rs. 2400 <span>excl.of gov tax</span></h1>
+                                    <h3>Government fee Approx 1500-4000 depending upon share capital or state of registered office</h3>
+                                </div>
+                            ):(<div className="no">No</div>)}
                         </div>        
                     </div>
                 </div>
